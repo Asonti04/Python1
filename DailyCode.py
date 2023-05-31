@@ -23,3 +23,16 @@ print(school, 'sounds like a great school!')
 user = input('Create a username: ')
 email = input('Enter your email: ')
 print('Hey', user, 'I will be sending an invite email to your', email, 'email shortly!')
+#Now lets try TYPE CASTING
+print('Now lets find out how old you wil be in 50 years')
+your_age = input('How old are you? ')
+future_age = float(your_age)
+print('In 50 years you will be', future_age + 50, 'years old. WOW thats old')
+#We are going to try another method od Type casting
+print('How old would you be if you were half your age? ')
+half_age = float(input('How old are you? '))
+print('If you were half your age you would be', half_age / 2)
+#Next is trying the INT
+print('Now lets see how old you would be if you lived until 2300')
+year = int(input('What year were you born? '))
+print('In 2300, you will be', 2300 - year, 'years old. You would live to see flying cars')
