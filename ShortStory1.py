@@ -10,3 +10,7 @@ money = float(input('Enter a BIG number: '))
 age = float(input('How old are you? '))
 print('Okay last question')
 friend = input('Give me a name of a friend: ')
+print('Great now give me a moment to generate your story.')
+import time
+time.sleep(5)
+print('Welcome to the 2099', game, 'tournament! We have 3 finalist here today, Asonti', name, 'and', friend, )
