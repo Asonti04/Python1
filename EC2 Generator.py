@@ -4,5 +4,6 @@ import random
 list1=['a', 'x', 'y', 'r', 'e', 'b', 'k', 'h']
 a=random.randint(0,7)
 b=random.randint(0,7)
+print('Your randomized Instance Names: ')
 for z in range(x):
-    print('Your randomized Instance Name: \n',random.randrange(1,100), dept + list1[a] + list1[b], random.randrange(1,100), sep='_')
+    print(random.randrange(1,100), dept + list1[a] + list1[b], random.randrange(1,100), sep='_')
