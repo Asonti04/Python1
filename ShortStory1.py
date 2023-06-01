@@ -14,3 +14,4 @@ print('Great now give me a moment to generate your story.')
 import time
 time.sleep(5)
 print('Welcome to the 2099', game, 'tournament! We have 3 finalist here today, Asonti', name, 'and', friend, )
+#THIS IS A WORKING PROGRESS I WILL BE PUSHING THE NEW CODE SOON
