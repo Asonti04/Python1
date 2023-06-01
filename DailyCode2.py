@@ -29,3 +29,23 @@ else:
         print('You now qualify for a FREE consultation!')
     else:
         print('You must pay a $50 fee for your consultation.')
+#Loopty LOOPS, they repeat instruction
+count = 2 
+while count < 20:
+    print(count)
+    count += 5
+print ('''
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~COMPLETE~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+''')
+for z in "ASONTI":
+    print('LETTER:', z)
+for count1 in range(2,8):
+    print(count1)
+#break & continue
+while True:
+    name = input('Hey what is your name? ')
+    if (name == 'EXIT'):
+        break
+    print('Hello', name)
