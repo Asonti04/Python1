@@ -49,11 +49,11 @@ while True:
             *   *   *   *   *   *   
                     ''')
                     print('           Try another game\n                OR')
-
-        #CHANGE QUESTIONS
+                    
+   
     elif topic == 'VIDEO GAMES':
         print('Okay gamer get ready for your first question!\n*    *    *   * Use the numbers 1, 2, & 3 to answer *    *    *   *\nQuestion 1. What Gaming system had the most sales as of 2022?') 
-        pcq1 = int(input('1. Playstation, 3. Nintendo Switch, 2. XBOX '))
+        pcq1 = int(input('1. Playstation, 2. Nintendo Switch, 3. XBOX '))
         if pcq1 != 1:
             print('Sorry that is incorrect, the answer was 1. Playstation. Better Luck next time!')
             
@@ -85,7 +85,7 @@ while True:
                     ''')
                     print('           Try another game\n                OR')
 
-        #CHANGE QUESTIONS
+     
     elif topic == 'FOOD CHAINS':
         print('           Lets talk food!\n*    *    *   * Use the numbers 1, 2, & 3 to answer *    *    *   *\nQuestion 1. What Fast Food company sold the most burgers as of 2023?')
         pcq1 = int(input('1. Wendys, 2. Mcdonalds, 3. Burger King '))
@@ -127,6 +127,6 @@ while True:
         *   *   *   *   *   *   *
         ''')
         break
-       
+    
     else:
         print('Invalid entry, please try POP CULTURE, VIDEO GAMES, or FOOD CHAINS')
