@@ -28,3 +28,10 @@ print(numbs3)
 #multiply list
 numbers = [2, 4, 6, 8] * 5
 print(numbers)
+name = 'asonti'
+print(name[4])
+print(name[:3])
+print(name[3:])
+#capitalization
+name_cap = name.upper()
+print(name_cap)
