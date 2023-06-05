@@ -57,3 +57,5 @@ print(numbas1)
 #using loop for list
 numbas = [i for i in range(1, 25)]
 print(numbas)
+print(list1[:3])
+print(list1[3:])
