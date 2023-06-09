@@ -10,7 +10,7 @@ print(ls) #this will list your files in the directory
 
 Dir = [] #creates empty list
 
-filenames = glob.glob('/home/ec2-user/environment/Python1/*.py') #retrieve filenames
+filenames = glob.glob('/home/ec2-user/environment/Python1/*') #retrieve filenames
 
 for file in filenames: #this will get your file size 
     size = os.stat(file)
