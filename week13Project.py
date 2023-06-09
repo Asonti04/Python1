@@ -5,16 +5,17 @@ import glob
 cwd = os.getcwd() #Prints working directory
 print(cwd)
 
-ls = os.listdir() 
-print(ls)
+ls = os.listdir()  
+print(ls) #this will list your files in the directory
 
 Dir = [] #creates empty list
 
 filenames = glob.glob('/home/ec2-user/environment/Python1/*.py') #retrieve filenames
 
-Dir.sort() #Puts file in order by name
-Dir.append(filenames) #adds the filenames to the empty list
-
-for file in filenames:
+for file in filenames: #this will get your file size 
     size = os.stat(file)
-    print('File names: ', file, '  File size:  (', size[6], ')')
+    Dict = {
+    file: size[6] #This makes a dictionary
+    }
+    Dir.append(Dict)
+print(*Dir, sep='\n') #prints out the file with corresponding size
